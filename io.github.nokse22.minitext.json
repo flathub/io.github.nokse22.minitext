@@ -29,8 +29,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "tag"  : "v0.1.4",
-                    "commit" : "484e201702952e988015df4776de2bdb88a682fa",
+                    "tag"  : "v0.1.5",
+                    "commit" : "bcc7cdb08803f2ec4846bc02b65089a7a60d5f7e",
                     "url" : "https://github.com/Nokse22/mini-text"
                 }
             ]
