@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.nokse22.minitext",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "mini-text",
     "finish-args" : [
@@ -29,8 +29,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "tag"  : "v0.1.8",
-                    "commit" : "e13fca6f7b4263873fe0488ff905d3c3aff1270a",
+                    "tag"  : "v0.2.0",
+                    "commit" : "cbc35e704dfe63d70d1e9d714fbc883740013099",
                     "url" : "https://github.com/Nokse22/mini-text"
                 }
             ]
