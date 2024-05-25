@@ -29,7 +29,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "commit" : "7c34e5ba028a856b9edc84962bce9b727c3f70da",
+                    "commit" : "9661c16c274d1c46ed1c0990f12614414ffd24dd",
                     "url" : "https://github.com/Nokse22/mini-text"
                 }
             ]
