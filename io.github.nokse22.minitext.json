@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.nokse22.minitext",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "command" : "mini-text",
     "finish-args" : [
@@ -9,17 +9,6 @@
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
-    ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
     ],
     "modules" : [
         {
@@ -29,8 +18,9 @@
             "sources" : [
                 {
                     "type" : "git",
+                    "url" : "https://github.com/Nokse22/mini-text",
                     "tag" : "v1.0.0",
-                    "url" : "https://github.com/Nokse22/mini-text"
+                    "commit" : "3634e6c705a052c509834e0de3450c3ff9792be2"
                 }
             ]
         }
